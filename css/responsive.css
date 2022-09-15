@@ -39,14 +39,16 @@ header {
 }
 
 .fa-map-marker-alt {  
-    padding: 17px;
+    padding: 12px;
 }
 
 .ville {
-    margin-left: 45px;
+    margin-left: 35px;
+    height: 40px;
 }
 
 .bouton_rechercher {
+    height: 40px;
     width: 13%;
 }
 
@@ -497,7 +499,7 @@ nav {
 .ville {
     padding: 16px;
     margin-left: 45px;
-    width: 72%;
+    width: 71%;
 }
 
 .bouton_rechercher {
