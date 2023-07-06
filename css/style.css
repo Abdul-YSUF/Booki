@@ -16,11 +16,16 @@ body {
 }
 
 /*Logo et Navigation*/
+header {
+    margin-bottom: 40px;
+    margin-top: -10px;
+}
+
 .logo {
     display: flex;
     justify-content: flex-start;
-    height: 45px;
-    margin: 40px 0px 0px 25px;
+    height: 35px;
+    margin: 40px 0px 0px 10px;
 } 
 
 nav {
@@ -38,11 +43,11 @@ nav {
 
 .nav_li {
     font-size: 15px;
-    padding-top: 25px;
+    padding-top: 20px;
 }
 
 .li_a {
-    padding-top:52px;
+    padding-top:37px;
     padding-left: 40px;
     padding-right: 40px;
 }
@@ -121,6 +126,15 @@ h3 + ul  {
     margin-left: 40px;
     border-left: none;
     height: 50px;
+}
+
+.filtre_child {
+    background-color: #DEEBFF;
+    color: #0065FC;
+    border-radius:200px;
+    padding: 17px 19px 17px 19px;
+    margin-right: 10px;
+    margin-left: -20px;
 }
  
 .menu-filtre {
