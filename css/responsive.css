@@ -17,7 +17,7 @@
 
 /*Logo et Navigation*/
 header {
-    margin-top: 0px;
+    margin-top: -10px;
 }
 
 .logo{
@@ -74,6 +74,10 @@ header {
     font-size: 13px;
     margin-bottom: 10px;
     height: 41px;
+}
+
+.filtre_child {
+    padding: 14px 16px 14px 16px;
 }
 
 .menu-filtre {
@@ -296,7 +300,7 @@ nav {
     display: flex;
     flex-wrap: wrap-reverse;
     justify-content: space-between;
-    margin-top: 1480px;
+    margin-top: 1635px;
     margin-bottom: 15px;
 }
 
@@ -339,7 +343,7 @@ nav {
 .populaires {
     flex-wrap: nowrap;
     width: 100%;
-    height: 630px;
+    height: 770px;
     background-color: #F2F2F2;
     border-radius: 0;
     margin-bottom: -100px;
@@ -348,8 +352,9 @@ nav {
 }
 
 .img_populaires {
-    max-width: 28%;
-    height: 142px;
+    width: 100%;
+    border-radius: 13px 13px 0 0;
+    height: 107px;
 }
 
 .titre_containeur_2 {
@@ -362,7 +367,7 @@ nav {
 
 .carte_populaires {
     width: 100%;
-    height: 150px;
+    height: 200px;
     margin-left: 0px;
     margin-bottom: 20px;
 }
@@ -372,18 +377,19 @@ nav {
 }
 
 .titre_populaires {
-    font-size: 13px;
-    margin-left: 210px;
-    margin-top: -135px;
+    font-size: 16px;
+    margin-left: 15px;
+    margin-top: 10px;
 }
 
 .prix_populaires {
-    margin-left: 210px;
+    margin-left: 15px;
 }
 
 .étoile_populaires {
-    margin-left: 210px;
-    margin-top: 30px;
+    position: absolute;
+    right: 40px;
+    margin-top: -15px;
 }
 
 /*Activités à marseille*/
